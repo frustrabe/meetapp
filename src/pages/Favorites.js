@@ -2,9 +2,9 @@ import React from "react";
 
 function FavoritesPage() {
     return (
-        <div>
-            Favorites Page
-        </div>
+        <section>
+            <h1>Favorite Meetups</h1>
+        </section>
     );
 }
 

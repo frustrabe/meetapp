@@ -2,9 +2,10 @@ import React from "react";
 
 function NewMeetupsPage() {
     return (
-        <div>
-            New Meetups Page
-        </div>
+        <section>
+            <h1>Add New Meetup</h1>
+
+        </section>
     );
 }
 
