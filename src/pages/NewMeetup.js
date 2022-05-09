@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import React from "react";
 import NewMeetupForm from "../components/meetups/NewMeetupForm";
 
 function NewMeetupsPage() {
@@ -16,7 +15,7 @@ function NewMeetupsPage() {
                 }
             }
         ).then(() => {
-            navigate('/', { replace: true });
+            navigate('/');
         });
     }
 
